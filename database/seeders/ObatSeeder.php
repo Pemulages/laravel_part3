@@ -24,6 +24,13 @@ class ObatSeeder extends Seeder
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
+            [
+                'nama_obat' => 'Pil KP',
+                'kemasan' => 'Kapsul',
+                'harga' => 20000,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
         ]);
     }
 }
